@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap');
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'MuseoModerno', cursive;
+*/
+
+:root {
+    --primary-color: #0a2ff1;
+    --secondary-color: #04146c;
+    --tertiary-color: #8a9af1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10px;
+    background-color: var(--tertiary-color);
+}
+
+body {
+    background-color: #edf7ff;
+}
+
+main {
+    width: 900px;
+    margin-left: 150px;
+}
+
+.titulo {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 117.3px;
+    color: var(--primary-color);
+}
+
+.sub-titulo1 {
+    font-family: 'Asap', sans-serif;
+    font-size: 52px;
+    color: var(--primary-color);
+
+}
+
+.parrafos {
+    margin-top: 110px;
+}
+
+.parrafo2 {
+    margin-top: 40px;
+}
+
+div p {
+    font-family: 'Asap', sans-serif;
+    font-size: 33.3px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.sub-titulo2 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 48px;
+    color: var(--primary-color);
+    margin-top: 110px;
+}
+
+.lista {
+    font-family: 'Asap', sans-serif;
+    font-size: 33.3px;
+    color: var(--secondary-color);
+}
+
+.lista li {
+    font-weight: bold;
+    margin: 30px 0 0 25px;
+}
+
+footer p {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 198.6px;
+    color: var(--tertiary-color);
+}
