@@ -4,6 +4,12 @@
 font-family: 'Montserrat', sans-serif; 
 */
 
+:root {
+    --color-primario: #0a2ff1;
+    --color-secundario: #000000;
+    --color-terciario: #ffffff;
+}
+
 * {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -22,21 +28,26 @@ div {
 
 }
 
-.elemento1,
-.elemento3,
-.elemento5 {
-    background-color: black;
+p {
+    color: var(--color-primario);
 }
 
-.elemento1,
-.elemento3,
-.elemento5 p {
-    color: white;
+.elemento2 {
+    background-color: var(--color-secundario);
+}
+
+.elemento2 p {
+    color: var(--color-terciario);
 }
 
 .elemento1,
 .elemento2 {
     height: 200px;
+}
+
+.cabecera,
+.fin {
+    background-color: var(--color-primario);
 }
 
 .elemento1 p {
@@ -57,29 +68,41 @@ div {
 }
 
 .elemento3 p {
+    color: black;
     font-size: 217.3px;
     font-weight: 900;
 }
 
 .elemento4 {
     height: 100px;
-}
-
-.elemento4 p {
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 900;
 }
 
-.elemento4 p span {
-    font-size: 48px;
+.sp1 {
     font-weight: 600;
 }
 
+.sp2 {
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+    font-size: 60px;
+}
+
 .elemento5 {
-    height: 190px;
+    height: 100px;
 }
 
 .elemento5 p {
     font-size: 58.6px;
     font-weight: 600;
+    margin-bottom: -30px;
+}
+
+.cabecera {
+    height: 50px;
+}
+
+.fin {
+    height: 100px;
 }
